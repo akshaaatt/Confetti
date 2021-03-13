@@ -1,0 +1,31 @@
+<manifest package="com.github.jinatonic.confetti.sample"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.alphelios.extras.confetti.sample.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.alphelios.extras.confetti.sample.FallingConfettiFromTopActivity"
+            android:parentActivityName="com.alphelios.extras.confetti.sample.MainActivity" />
+        <activity android:name="com.alphelios.extras.confetti.sample.FallingConfettiFromPointActivity"
+            android:parentActivityName="com.alphelios.extras.confetti.sample.MainActivity" />
+        <activity android:name="com.alphelios.extras.confetti.sample.ExplosionActivity"
+            android:parentActivityName="com.alphelios.extras.confetti.sample.MainActivity" />
+        <activity android:name="com.alphelios.extras.confetti.sample.ShimmeringActivity"
+            android:parentActivityName="com.alphelios.extras.confetti.sample.MainActivity" />
+        <activity android:name="com.alphelios.extras.confetti.sample.FallingWithTouchActivity"
+            android:parentActivityName="com.alphelios.extras.confetti.sample.MainActivity" />
+        <activity android:name="com.alphelios.extras.confetti.sample.FallingConfettiWithListenerActivity"
+            android:parentActivityName="com.alphelios.extras.confetti.sample.MainActivity" />
+
+    </application>
+
+</manifest>
