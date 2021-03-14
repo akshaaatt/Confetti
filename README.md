@@ -20,7 +20,7 @@ Getting started
 Add the confetti dependency to your `build.gradle`.
 
 ```groovy
-implementation 'com.github.jinatonic.confetti:confetti:1.1.2'
+implementation 'com.github.akshaaatt:Confetti:1.0.0'
 ```
 
 
