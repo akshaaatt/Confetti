@@ -183,3 +183,5 @@ new Handler().postDelayed(new Runnable() {
 The above snippet will configure the initial emission rate to be 100 confetti per second and start
 the animation. After 3 seconds, it will reduce the emission rate to 20 confetti per second. This 
 applies to all attributes (e.g. changing velocity or acceleration based on some outside condition).
+
+Inspired by https://github.com/jinatonic/confetti
